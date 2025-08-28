@@ -1,5 +1,5 @@
     (function(){
-      const TARGET = '136.555';
+      const TARGET = '666.666';
       const input = document.getElementById('freqInput');
       const ambient = document.getElementById('ambient');
       const success = document.getElementById('success');
@@ -59,13 +59,13 @@
       function revealTranscription(){
         try{ ambient.volume = 0.02; setTimeout(()=>ambient.pause(),1600); }catch(e){}
         const lines = [
-          "teste teste teste",
-          "teste2 teste2 teste2",
-          "Alguém costurou um nome dentro do microfone e nunca mais tirou.",
-          "Choveubaixo do telhado: metal derretido em forma de lágrima; havia rótulos em língua de inseto.",
-          "A criança aprendeu a cantar com os pregos e agora quer que você cante também.",
-          "Há um espelho que esqueceu como refletir — ele mastiga promessas e as devolve como moeda.",
-          "Não é memória. É um recado rasgado em pele falsa: segure a respiração e ouça o piso resolver seu nome.",
+          "VOCÊ TRAPACEOU",
+          "VOCÊ TRAPACEOU VOCÊ TRAPACEOU ",
+          "VOCÊ TRAPACEOU VOCÊ TRAPACEOU VOCÊ TRAPACEOU ",
+          "VOCÊ TRAPACEOU VOCÊ TRAPACEOU VOCÊ TRAPACEOU VOCÊ TRAPACEOU ",
+          "VOCÊ TRAPACEOU VOCÊ TRAPACEOU VOCÊ TRAPACEOU VOCÊ TRAPACEOU VOCÊ TRAPACEOU ",
+          "VOCÊ TRAPACEOU VOCÊ TRAPACEOU VOCÊ TRAPACEOU VOCÊ TRAPACEOU VOCÊ TRAPACEOU VOCÊ TRAPACEOU ",
+          "VOCÊ TRAPACEOU VOCÊ TRAPACEOU VOCÊ TRAPACEOU VOCÊ TRAPACEOU VOCÊ TRAPACEOU VOCÊ TRAPACEOU VOCÊ TRAPACEOU ",
           "O que você chamou de silêncio estava apenas adormecido com fome. Não acorde o que já tem dentes.",
           "Se tentou catalogar os sons, saiba: as palavras se dobram em argila e fazem uma escada para o porão.",
           "Fique. Não fique. É indiferente. As portas contaram a piada antes de perceberem que não havia plateia.",
